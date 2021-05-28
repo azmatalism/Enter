@@ -81,7 +81,8 @@ def menu():
     	print("  \x1b[1;92m[3] From Followers")
     	print("  \x1b[1;92m[4] Get Data Target")
     	print("  \x1b[1;92m[0] Log Out")
-    	r=raw_input("    \n\x1b[1;92m==> ")
+    	print(" ")
+    	r=raw_input("  \x1b[1;92m==> ")
     	if r=="":
 	    print("\n[!] Fill In The Correct")
 	    menu()
