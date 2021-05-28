@@ -150,7 +150,7 @@ def public():
 		os.system('rm -rf login.txt')
 		login()
 	try:
-		idt = raw_input("  \n\x1b[1;93m[•] Put ID: ")
+		idt = raw_input("    \n\x1b[1;93m[•] Put ID: ")
                 limit = raw_input("[•] Limit (Max <1000>) : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -189,7 +189,7 @@ def followers():
 		os.system('rm -rf login.txt')
 		login()
 	try:
-		idt = raw_input("  \n\x1b[1;93m[•] Put ID: ")
+		idt = raw_input("    \n\x1b[1;93m[•] Put ID: ")
                 limit = raw_input("[•] Limit (Max 1000) : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -228,7 +228,7 @@ def target():
 		os.system('rm -rf login.txt')
 		login()
 	try:
-		idt = raw_input("  \n\x1b[1;93m[•] Put ID: ")
+		idt = raw_input("    \n\x1b[1;93m[•] Put ID: ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
